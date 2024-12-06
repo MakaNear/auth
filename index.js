@@ -25,7 +25,7 @@ function apiResponse(result){
         redirect("/testi");
     }else{
         setInner("content","Silahkan lakukan pendaftaran dahulu ke Makanear Login");
-        redirect("/Register");  
+        redirect("/register");  
        //redirect("https://wa.me/pamongdesa?text=bantuan+operator");
     }
     
