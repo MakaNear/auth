@@ -24,7 +24,8 @@ function apiResponse(result){
         setInner("content","Selamat datang "+result.data.data.fullname);
         redirect("/testi");
     }else{
-        setInner("content","Silahkan lakukan pendaftaran dahulu ke LMS Pamong Desa");
+        setInner("content","Silahkan lakukan pendaftaran dahulu ke Makanear Login");
+        redirect("/Register");  
        //redirect("https://wa.me/pamongdesa?text=bantuan+operator");
     }
     
